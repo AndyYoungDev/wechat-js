@@ -40,7 +40,5 @@ class IndexController extends WechatController
         return $this->render('index',[
             'wx'=>$wx
         ]);
-//        Yii::$app->response->format=Response::FORMAT_JSON;
-//        return $wx;
     }
 }
